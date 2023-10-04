@@ -1,0 +1,107 @@
+body {
+    background-color: rgba(194, 228, 241, 0.548);
+    background-repeat: no-repeat;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+}
+
+.imagem img {
+    border-radius: 200px;
+    margin-top: 30px;
+}
+
+.nome {
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.548);
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.icones {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    margin: 3px;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.icones i {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: rgba(0, 1, 7, 0.514);
+    color: rgba(71, 250, 250, 0.678);
+}
+
+.icones span a {
+    text-decoration: none;
+    float: right;
+    margin-right: 23px;
+    font-weight: 100;
+    font-size: 17px;
+    line-height: 35px;
+}
+
+.icones:hover {
+    width: 125px;
+    background-color: rgba(171, 201, 241, 0.87);
+    border-radius: 20px;
+}
+
+.projetos, .formacao, .experiencia {
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    margin-top: 0;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    width: 800px;
+    height: 100px;
+    color: rgba(0, 0, 0, 0.795);
+    cursor: pointer;
+}
+
+.objetivo {
+
+    width: 800px;
+    height: 100px;
+    color: rgba(0, 0, 0, 0.795);
+    margin: 5px;
+    padding: 4px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+li {
+    text-align: justify;
+    margin: 2px;
+    padding: 2px;
+}
+
+h2 {
+    margin: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
